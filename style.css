@@ -86,10 +86,20 @@ section {
   color: #d2d2d2;
   font-size: 20px;
   list-style-type: none;
+  display: flexbox;
+  background-color: black;
+}
+
+.textos-list img{
+  width: 500px;
+  display: block;
+  margin: auto;
 }
 
 .textos-list li {
   margin-bottom: 10px;
+  margin-top: 10px;
+  border: 5px solid white;
 }
 
 .section-videos {
@@ -108,11 +118,6 @@ section {
   display: flex;
   flex-direction: row;
   margin-bottom: 40px;
-}
-
-.video-card-img {
-  width: 300px;
-  border-radius: 10px 10px 0 0;
 }
 
 .video-card-description {
